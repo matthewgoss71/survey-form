@@ -8,12 +8,16 @@
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
         <form id="survey-form">
+
+            <!--Text Input-->
             <label id="name-label" for "name">Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
             <label id="email-label" for "email">Email</label>
             <input type="email" id="email" name="email" placeholder="Enter your Email" required>
             <label id="number-label" for "number">Age (optional)</label>
             <input type="number" id="number" name="number" min="18" max="99" placeholder="Age" >
+            
+            <!--Dropdown1-->
             <label id="dropdown-label" for "dropdown">Which option best describes your current role?</label>
             <select name="role" id="dropdown">
                 <option value="placeholder">Select current role</option>
@@ -23,6 +27,8 @@
                 <option value="prefer-not-to-say">Prefer not to say</option>
                 <option value="other">Other</option>
             </select>
+
+            <!--Radio-->
             <label id="radio-label" for "recommend">Would you recommend freeCodeCamp to a friend?</label>
             <input type="radio" id="definitely" name="recommend" value="Definitely">
             <label for="definitely">Definitely</label><br>
@@ -30,6 +36,19 @@
             <label for="maybe">Maybe</label><br>
             <input type="radio" id="not-sure" name="recommend" value="Not-Sure">
             <label for="not-sure">Not Sure</label>
+
+            <!--Dropdown2-->
+            <label id="dropdown-label2" for "dropdown2">What is your favorite feature of freeCodeCamp?</label>
+            <select name="favorite" id="dropdown2">
+                <option value="placeholder">Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="open-source">Open Source</option>
+            </select>
+
+            <!--Checkboxes-->
+            <label id="checkbox-label" for ""
         </form>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
     </body>
